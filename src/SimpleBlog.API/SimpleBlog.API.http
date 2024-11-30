@@ -1,0 +1,6 @@
+@SimpleBlog.API_HostAddress = http://localhost:5168
+
+GET {{SimpleBlog.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
