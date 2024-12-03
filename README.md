@@ -48,3 +48,6 @@ Com mais tempo, algumas melhorias poderiam ser implementadas:
 
 4. **Domínios Ricos**:
    - Separar melhor as responsabilidades entre a camada de domínio (regras de negócio) e a camada de aplicação (regras específicas do sistema).
+
+5. **Segurança Aprimorada**:
+   - Implementar medidas adicionais para aumentar a segurança da aplicação, como criptografia de dados sensíveis, validações de segurança aprimoradas nas APIs e melhorias na autenticação de usuários.
