@@ -10,6 +10,11 @@ namespace SimpleBlog.Data
 
         public SimpleBlogDbContext(DbContextOptions<SimpleBlogDbContext> options) : base(options) { }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(SimpleBlogDbContext).Assembly);
+        }
+
         public override int SaveChanges()
         {
             AddTimestamps();
